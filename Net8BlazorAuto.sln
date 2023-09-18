@@ -1,31 +1,50 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.7.33906.173
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net8BlazorAuto.Server", "Server\Net8BlazorAuto.Server.csproj", "{94ED636A-C4AD-42DE-BBF8-38B49999B1ED}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net8BlazorAuto", "Net8BlazorAuto\Net8BlazorAuto.csproj", "{05171329-F9C0-4659-A4C7-43DEF748AF7F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net8BlazorAuto.Client", "Client\Net8BlazorAuto.Client.csproj", "{84F39898-27C5-4904-8FBA-E2456A44A70E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net8BlazorAuto.Client", "Net8BlazorAuto.Client\Net8BlazorAuto.Client.csproj", "{0593E151-C1FF-4E6C-81FB-DACF8382AD20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94ED636A-C4AD-42DE-BBF8-38B49999B1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94ED636A-C4AD-42DE-BBF8-38B49999B1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94ED636A-C4AD-42DE-BBF8-38B49999B1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94ED636A-C4AD-42DE-BBF8-38B49999B1ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84F39898-27C5-4904-8FBA-E2456A44A70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84F39898-27C5-4904-8FBA-E2456A44A70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84F39898-27C5-4904-8FBA-E2456A44A70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84F39898-27C5-4904-8FBA-E2456A44A70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Debug|x64.Build.0 = Debug|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Debug|x86.Build.0 = Debug|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Release|x64.ActiveCfg = Release|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Release|x64.Build.0 = Release|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Release|x86.ActiveCfg = Release|Any CPU
+		{0593E151-C1FF-4E6C-81FB-DACF8382AD20}.Release|x86.Build.0 = Release|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Debug|x64.Build.0 = Debug|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Debug|x86.Build.0 = Debug|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Release|x64.ActiveCfg = Release|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Release|x64.Build.0 = Release|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Release|x86.ActiveCfg = Release|Any CPU
+		{05171329-F9C0-4659-A4C7-43DEF748AF7F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C08FBAC4-B432-4DD6-A29E-5FFCDBC1FFBC}
+		SolutionGuid = {DFD238A4-8C86-468F-8330-ACD7FD96A2E8}
 	EndGlobalSection
 EndGlobal
